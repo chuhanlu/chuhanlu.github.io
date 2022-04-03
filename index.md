@@ -3,7 +3,7 @@ title: <center> Chuhan Lu • 陆楚晗 </center>
 ---
 <center> She never grew up, but never stopped growing.
 
-([from the headstone at the grave of Sir Arthur C. Clarke](https://theprecis.com/arthur-c-clarke/#:~:text=A%20plaque%20on%20his%20grave,man%20of%20science%20as%20fiction.))</center>
+(from the headstone at the grave of Sir Arthur C. Clarke）</center>
 
 
 ![profile](/profile.jpg)
