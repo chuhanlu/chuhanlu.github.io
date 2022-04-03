@@ -1,9 +1,9 @@
 ---
 title: <center> Chuhan Lu • 陆楚晗 </center>
 ---
-<center> She never grew up, but never stopped growing.
+<center> She never grew up, but never stopped growing.</center>
 
-(from the headstone at the grave of Sir Arthur C. Clarke）</center>
+<center>(from the headstone at the grave of Sir Arthur C. Clarke）</center>
 
 
 ![profile](/profile.jpg)
