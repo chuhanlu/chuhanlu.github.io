@@ -1,5 +1,5 @@
 ---
-title: "Chuhan Lu • 陆楚晗 •"
+title: <center>"Chuhan Lu • 陆楚晗 •"</center>
 ---
 ![profile](/profile.jpg)
 
