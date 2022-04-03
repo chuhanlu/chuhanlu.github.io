@@ -2,15 +2,18 @@
 title: <center> Chuhan Lu • 陆楚晗 </center>
 ---
 <center> She never grew up, but never stopped growing</center>
+
 ![profile](/profile.jpg)
 
 ## Short Bio
-I am currently a Ph.D. student whose research interests lie in theoretical Computer Science, especially topics related to quantum algorithm and post-quantum cryptography. In 2017, I caught an opportunity and transferred my major to Computer Science. Prior to that, I received my bachelor’s degree in advertising.  
+In 2017, I caught an opportunity to change to Computer Science. Prior to that, I received my Bachelor's degree in advertising. I studied through the Post-Baccalaureate program offered by the CS department at Portland State University for one year and got admission to its Master's program. I earned my MS degree in 2019 and decided to keep my journey in more complicated but fundamental research.
+
+I am currently a third-year Ph.D. student at Portland State University supervised by Prof. [Fang Song](http://fangsong.info/). I am interested in theoretical Computer Science on varied topics, especially quantum computing and post-quantum cryptography. 
 
 ## Institution  
 Department of Computer Science\
 Portland State University\
-chuhan at pdx dot edu
+E-mail: chuhan at pdx dot edu
 
 
 
