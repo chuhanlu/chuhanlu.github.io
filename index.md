@@ -30,5 +30,5 @@ Accepted in the poster session
 ## Personal Hobbies
 I enjoy my life through movies, music, art and reading.
 
-My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my practice can be found in
+My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my practice can be found
 [here](https://www.instagram.com/chlsix16/).
