@@ -20,7 +20,12 @@ Portland, OR\
 E-mail: chuhan at pdx dot edu
 
 ## Research Experience
-- 	A Quantum Algorithm for the Hidden Subgroup Problem on Z^n\
+- Research assistant, Advisor: Prof. Fang Song
+  - CS Department, Portland State University, 2020.06 - Present
+  - CSCE Department, Texas A&M University, 2019.09 - 2020.05
+
+
+- 	*A Quantum Algorithm for the Hidden Subgroup Problem on Z^n*\
 Asian Quantum Information Science Conference (AQIS), 2021.09\
 Accepted in the poster session
 
@@ -28,7 +33,9 @@ Accepted in the poster session
 
 
 ## Personal Hobbies
-I enjoy my life through movies, music, art and reading.
+I enjoy my life through movies, reading, music, and art.
 
-My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my practice can be found
+My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my amateur practice can be found
 [here](https://www.instagram.com/chlsix16/).
+
+<center>* Updated on Apr 2022 *</center>
