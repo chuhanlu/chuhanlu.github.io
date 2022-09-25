@@ -4,8 +4,8 @@ title: <center> Chuhan Lu • 陆楚晗 </center>
 <center> She never grew up, but never stopped growing.</center>
 ---
 ## Teaching Assistant
-*Fall2022: [CS 491/591 Introduction to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)*
-  ** Office Hour: T/TH 1-2pm in Fishbowl **
+*Fall2022: [CS 491/591 Intro to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)*\
+  **Office Hour: T/TH 1-2pm in Fishbowl**
 
 
 ## Short Bio
@@ -23,7 +23,7 @@ E-mail: chuhan at pdx dot edu
 
 ## Research Experience
 - Research assistant, Advisor: Prof. Fang Song
-  - CS Department, Portland State University, 2020.06 - Present
+  - CS Department, Portland State University, 2020.06 - 2022.09
   - CSCE Department, Texas A&M University, 2019.09 - 2020.05
 
 
