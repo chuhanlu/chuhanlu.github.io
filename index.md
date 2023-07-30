@@ -1,11 +1,8 @@
 ---
 title: <center> Chuhan Lu • 陆楚晗 </center>
 ---
-<center> She never grew up, but never stopped growing.</center>
+<center> Never grew up, but never stopped growing.</center>
 ---
-## Teaching Assistant
-*Fall2022: [CS 491/591 Intro to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)*\
-  **Office Hour: T/TH 1-2pm in Fishbowl**
 
 ## Institution  
 Department of Computer Science\
@@ -31,13 +28,15 @@ I am currently a Ph.D. student at Portland State University supervised by Prof. 
 Asian Quantum Information Science Conference (AQIS), 2021.09\
 Accepted in the poster session
 
+## Teaching Assistant
+*Fall2022: [CS 491/591 Intro to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)*\
+  **Office Hour: T/TH 1-2pm in Fishbowl**
 
 
-
-## Personal Hobbies
+[comment]: # (## Personal Hobbies
 I enjoy my life through movies, reading, music, and art.
 
 My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my amateur practice can be found
-[here](https://www.instagram.com/chlsix16/).
+[here](https://www.instagram.com/chlsix16/).)
 
-<center>* Updated on Sep 2022 *</center>
+<center>* Updated on Jul 2023 *</center>
