@@ -30,7 +30,7 @@ Accepted in the poster session
 
 ## Teaching Assistant
 *Fall2022: [CS 491/591 Intro to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)*\
-  **Office Hour: T/TH 1-2pm in Fishbowl**
+[comment]: # (**Office Hour: T/TH 1-2pm in Fishbowl**)
 
 
 [comment]: # (## Personal Hobbies)
