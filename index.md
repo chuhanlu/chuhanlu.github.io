@@ -39,4 +39,4 @@ Accepted in the poster session
 [comment]: # (My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my amateur practice can be found)
 [comment]: # ([here](https://www.instagram.com/chlsix16/).)
 
-<center>* Updated on Jul 2023 *</center>
+<center>* 上山是为了遇见一起下山的人 *</center>
