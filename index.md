@@ -33,10 +33,10 @@ Accepted in the poster session
   **Office Hour: T/TH 1-2pm in Fishbowl**
 
 
-[comment]: # (## Personal Hobbies
-I enjoy my life through movies, reading, music, and art.
+[comment]: # (## Personal Hobbies)
+[comment]: # (I enjoy my life through movies, reading, music, and art.)
 
-My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my amateur practice can be found
-[here](https://www.instagram.com/chlsix16/).)
+[comment]: # (My favorite pianist/composer is [Dustin O'Halloran](https://dustinohalloran.com/) who wrote music for many movies. I like photography, watercolor, crochet/knitting, etc. Some of my amateur practice can be found)
+[comment]: # ([here](https://www.instagram.com/chlsix16/).)
 
 <center>* Updated on Jul 2023 *</center>
