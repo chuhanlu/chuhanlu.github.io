@@ -18,7 +18,7 @@ I am currently a Ph.D. student at Portland State University supervised by Prof. 
 [comment]: ![profile](/profile.jpg)
 
 ## Papers
--  *Quantum Pseudorandom Scramblers* [arXiv](https://arxiv.org/abs/2309.08941)\
+-  *Quantum Pseudorandom Scramblers* [[arXiv]](https://arxiv.org/abs/2309.08941)\
    Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao and Mingnan Zhao.\
    [QIP 2024](https://qip2024.tw/)
 
@@ -39,9 +39,9 @@ Asian Quantum Information Science Conference (AQIS), 2021\
   - CSCE Department, Texas A&M University, 2019.09 - 2020.05
 
 ## Teaching Assistant
-*Spr2024: [CS 251 Discrete Structures II]*\
+Spr2024: CS 251 Discrete Structures II
 
-*Fal2022: [CS 491/591 Intro to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)*\
+Fal2022: [CS 491/591 Intro to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)
 
 
 
