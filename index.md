@@ -31,7 +31,7 @@ I am currently a Ph.D. student at Portland State University supervised by Prof. 
 Qcrypt 2023
 
 - 	*A Quantum Algorithm for the Hidden Subgroup Problem on Z^n*\
-Asian Quantum Information Science Conference (AQIS), 2021\
+Asian Quantum Information Science Conference (AQIS), 2021
 
 ## Research Assistant
 - Research assistant, Advisor: Prof. Fang Song
@@ -39,8 +39,7 @@ Asian Quantum Information Science Conference (AQIS), 2021\
   - CSCE Department, Texas A&M University, 2019.09 - 2020.05
 
 ## Teaching Assistant
-Spr2024: CS 251 Discrete Structures II
-
+Spr2024: CS 251 Discrete Structures II\
 Fal2022: [CS 491/591 Intro to Computer Security](https://www.thefengs.com/wuchang/courses/cs491/)
 
 
