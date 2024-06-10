@@ -24,11 +24,11 @@ I am currently a Ph.D. student at Portland State University supervised by Prof. 
 
 
 ## Posters
--   *Unprovable Security of statistical NIZK in the Quantum Setting*\
-[Qcrypt 2023](https://2023.qcrypt.net/)
+[comment]: -   *Unprovable Security of statistical NIZK in the Quantum Setting*\
+[comment]: [Qcrypt 2023](https://2023.qcrypt.net/)
 
--   *Separating SNARGs from Falsifiable Assumptions in the Quantum Setting*\
-Qcrypt 2023
+[comment]: -   *Separating SNARGs from Falsifiable Assumptions in the Quantum Setting*\
+[comment]: Qcrypt 2023
 
 - 	*A Quantum Algorithm for the Hidden Subgroup Problem on Z^n*\
 Asian Quantum Information Science Conference (AQIS), 2021
