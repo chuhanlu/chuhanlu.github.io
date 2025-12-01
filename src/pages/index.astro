@@ -2,77 +2,82 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
-import createSlug from "../lib/createSlug"
+import createSlug from "../lib/createSlug";
 
-const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection("blog")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 
 const last_posts = posts.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
-  <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
-    <div class="py-2">
-      <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
-      </text>
+    <div class="pb-12 mt-5">
+        <div class="text-xl py-1">Hi 👋</div>
+        <div class="text-5xl font-bold">I'm Chuhan Lu • 陆楚晗</div>
+        <div class="text-3xl py-3 font-bold">Short Biography</div>
+        <div class="text-justify mb-10 leading-relaxed">
+            <p class="mb-4">
+                I am currently a postdoctoral researcher at Rice University,
+                where I work under the supervision of
+                <a
+                    href="https://sites.google.com/view/naihuichia"
+                    target="_blank"
+                    class="text-blue-500 underline font-semibold"
+                >
+                    Prof. Nai-Hui Chia
+                </a>. I was fortunate to receive my Ph.D. from Portland State
+                University under the guidance of
+                <a
+                    href="https://fangsong.info/"
+                    target="_blank"
+                    class="text-blue-500 underline font-semibold"
+                >
+                    Prof. Fang Song
+                </a>, whose support shaped my research path. My current research
+                focuses on quantum pseudorandomness in cryptography. I am
+                particularly interested in understanding the differences among
+                various quantum pseudorandom primitives and exploring their
+                computational indistinguishability across different security
+                settings from a cryptographic perspective.
+            </p>
+
+            <p class="mb-4">
+                Before diving into this line of research, my academic journey
+                took a very different path. In 2017, I had the chance to switch
+                my major to Computer Science after earning a Bachelor’s degree
+                in advertising. I studied in the Post-Baccalaureate program at
+                Portland State University for one year, then entered its
+                Master’s program. I received my M.S. degree in 2019 and chose to
+                continue pursuing more complex and fundamental research. I am
+                especially grateful to Prof. Bryant W. York for his mentorship
+                and encouragement during this transition, and I sincerely thank
+                all those who helped me along the way.
+            </p>
+        </div>
     </div>
-    <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
+
+    <div>
+        <div class="text-3xl w-full font-bold mb-2">Institution</div>
     </div>
-  </div>
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
-  </div>
+    <div class="flex items-start gap-2 mb-1">
+        <span class="text-blue-500">🏛️</span>
+        <span>Department of Computer Science</span>
+    </div>
 
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
+    <div class="flex items-start gap-2 mb-1">
+        <span class="text-blue-500">🎓</span>
+        <span>Rice University</span>
+    </div>
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
-  </div>
+    <div class="flex items-start gap-2 mb-1">
+        <span class="text-blue-500">📍</span>
+        <span>Houston, TX</span>
+    </div>
 
-  {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  }
+    <div class="flex items-start gap-2 mt-2">
+        <span class="text-blue-500">✉️</span>
+        <span><strong>E-mail:</strong> chuhanlu dot res at gmail dot com</span>
+    </div>
 </BaseLayout>

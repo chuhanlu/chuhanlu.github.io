@@ -4,89 +4,215 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
-  </div>
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Short Bio</div>
+    </div>
 
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
+    <div class="mb-10 text-justify">
+        I am currently a postdoctoral researcher at Rice university under the
+        supervision of
+        <strong
+            ><a
+                href="https://sites.google.com/view/naihuichia"
+                class="text-blue-500 underline"
+                >Prof. Nai-hui Chia
+            </a></strong
+        >. Previously, I received my Ph.D. at Portland State University advised
+        by
+        <strong
+            ><a href="https://fangsong.info/" class="text-blue-500 underline"
+                >Prof. Fang Song
+            </a></strong
+        >. My current research focuses on quantum pseudorandomness in
+        cryptography. I am particularly interested in understanding the
+        differences among various quantum pseudorandom primitives and exploring
+        their computational indistinguishability across different security
+        settings from a cryptographic perspective.
+    </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
-  </div>
+    <div class="mb-10 text-justify">
+        Before this, I transitioned to computer science in 2017 after earning a
+        Bachelor’s degree in advertising. I completed the Post-Baccalaureate
+        program at Portland State University, continued into its Master’s
+        program, and received my M.S. degree in 2019. During this period, I
+        developed a strong interest in theoretical computer science, especially
+        quantum computing and cryptography, which motivated me to pursue further
+        research in these areas.
+    </div>
 
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-  </div>
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Education</div>
+    </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
-  </div>
+    <div class="time-line-container grid gap-4 mb-10">
+        <TimeLineElement
+            title="Ph.D. in Computer Science"
+            <div
+            class="text-sm opacity-70"
+        >
+            2020 -- 2025, Portland State University, GPA 3.94<br />
+            2019 -- 2020, Texas A&M University, GPA 4.00
+        </TimeLineElement>
+        <TimeLineElement
+            title="M.S. in Computer Science"
+            subtitle="2018 -- 2019, Portland State University, GPA 3.94"
+        />
+        <TimeLineElement
+            title="Post-Baccalaureate in Computer Science"
+            subtitle="2017 -- 2018, Portland State University, GPA 4.00"
+        />
+    </div>
 
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-  </div>
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Papers</div>
+    </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
-  </div>
+    <ul class="list-disc mx-6 mb-10 grid gap-4">
+        <!-- Paper 1 -->
+        <li class="leading-relaxed">
+            <div class="font-semibold">
+                Parallel Kac’s Walk Generates PRU
+                <a
+                    href="https://arxiv.org/abs/2504.14957"
+                    target="_blank"
+                    class="text-blue-500 underline"
+                >
+                    [arXiv]
+                </a>
+                <a
+                    href="https://www.notion.so/1b1ead8795d0808daacaffbe6da8f80d?pvs=21"
+                    target="_blank"
+                    class="text-blue-500 underline"
+                >
+                    [poster]
+                </a>
+            </div>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-  </ul>
+            <div>
+                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em
+                >, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao.
+            </div>
+        </li>
+        <!-- Paper 2 -->
+        <li class="leading-relaxed">
+            <div class="font-semibold">
+                Quantum Pseudorandom Scramblers
+                <a
+                    href="https://arxiv.org/abs/2309.08941"
+                    target="_blank"
+                    class="text-blue-500 underline"
+                >
+                    [arXiv]
+                </a>
+            </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
+            <div>
+                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em
+                >, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao.
+            </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-  </ul>
+            <div class="mt-1">
+                <a
+                    href="https://qip2024.tw/site/page.aspx?pid=901&sid=1522&lang=en"
+                    target="_blank"
+                    class="text-blue-500 underline font-semibold"
+                >
+                    QIP2024
+                </a>
+                &nbsp;
+                <a
+                    href="https://tcc.iacr.org/2024/"
+                    target="_blank"
+                    class="text-blue-500 underline font-semibold"
+                >
+                    TCC2024
+                </a>
+            </div>
+        </li>
+        <!-- Paper 3 -->
+        <li class="leading-relaxed">
+            <div class="font-semibold">
+                Notions of Quantum Reductions and Impossibility of
+                Statistical-NIZK
+            </div>
+
+            <div>
+                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em
+                >, Nikhil Pappu.
+            </div>
+
+            <div class="mt-1">
+                <a
+                    href="https://eprint.iacr.org/2024/1847"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 underline font-semibold"
+                >
+                    [ePrint]
+                </a>
+            </div>
+        </li>
+    </ul>
+
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Posters & Projects</div>
+    </div>
+
+    <ul class="list-disc mx-6 mb-10 grid gap-4">
+        <!-- Poster 1 -->
+        <li class="leading-relaxed">
+            <div class="font-semibold">
+                A Quantum Algorithm for the Hidden Subgroup Problem on Z^n
+            </div>
+
+            <div>
+                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em>
+            </div>
+
+            <div class="mt-1">
+                <a
+                    href="http://aqis-conf.org/2021/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-500 underline font-semibold"
+                >
+                    AQIS2021
+                </a>
+            </div>
+        </li>
+
+        <!-- Project items -->
+        <li class="leading-relaxed font-semibold">
+            A Genetic Algorithm Attack on the SVP Challenge in APL (2019)
+        </li>
+
+        <li class="leading-relaxed font-semibold">
+            Implementation of Quadratic Sieve in APL (2018)
+        </li>
+
+        <li class="leading-relaxed font-semibold">
+            A Study of the Nonabelian Hidden Subgroup Problem (2018)
+        </li>
+    </ul>
+
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Teaching Assistant</div>
+    </div>
+
+    <ul class="list-disc mx-6 mb-10 grid gap-4 leading-relaxed">
+        <li>CS 350 Algorithms and Complexity (Spring 2025)</li>
+        <li>CS 581 Theory of Computation (Fall 2024)</li>
+        <li>CS 251 Discrete Structures II (Spring 2024)</li>
+        <li>CS 491/591 Intro to Computer Security (Fall 2022)</li>
+    </ul>
+
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">Awards</div>
+    </div>
+
+    <ul class="list-disc mx-6 mb-10 grid gap-4 leading-relaxed">
+        <li class="font-semibold">
+            Wedge Vision Fellowship, 2020–2021 academic year
+        </li>
+    </ul>
 </BaseLayout>
