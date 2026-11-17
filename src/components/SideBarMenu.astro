@@ -3,19 +3,19 @@ const { sideBarActiveItemID } = Astro.props;
 const activeClass = "bg-base-300"; // For primary color replace with `active` class
 ---
 
-<ul class="menu grow shrink menu-md overflow-y-auto">
+<ul class="menu sidebar-navigation shrink-0 menu-md">
     <li><a class="py-3 text-base" id="home" href="/">Home</a></li>
     <li><a class="py-3 text-base" id="cv" href="/cv">CV</a></li>
     <li>
         <a
             class="py-3 text-base"
-            href="/rs.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            id="research"
+            href="/research"
         >
             Research Statement
         </a>
     </li>
+    <li class="personal-nav-item"><a class="py-3 text-base" id="personal" href="/personal">Personal</a></li>
 </ul>
 
 <script
