@@ -1,37 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
-
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
-    <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Education</div>
-    </div>
-
-    <div class="time-line-container grid gap-4 mb-10">
-        <TimeLineElement
-            title="Ph.D. in Computer Science"
-            <div
-            class="text-sm opacity-70"
-        >
-            2020 -- 2025, Portland State University, GPA 3.94<br />
-            2019 -- 2020, Texas A&M University, GPA 4.00
-        </TimeLineElement>
-        <TimeLineElement
-            title="M.S. in Computer Science"
-            subtitle="2018 -- 2019, Portland State University, GPA 3.94"
-        />
-        <TimeLineElement
-            title="Post-Baccalaureate in Computer Science"
-            subtitle="2017 -- 2018, Portland State University, GPA 4.00"
-        />
-    </div>
-
-    <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Papers</div>
-    </div>
-
-    <ul class="list-disc mx-6 mb-10 grid gap-4">
+<BaseLayout title="Curriculum Vitae | Chuhan Lu" sideBarActiveItemID="cv">
+<article class="academic-cv mt-5">
+    <header class="cv-header"><div class="cv-title-row"><h1>Curriculum Vitae</h1><span class="cv-pdf-placeholder cv-download-placeholder" role="link" aria-disabled="true" title="PDF coming soon">View PDF ↗</span></div><p>Chuhan Lu</p></header>
+    <nav class="cv-nav" aria-label="CV sections"><a href="#appointments">Appointments</a><a href="#education">Education</a><a href="#publications">Publications</a><a href="#teaching">Teaching</a><a href="#awards">Awards</a></nav>
+    <section id="appointments"><h2>Academic Appointments</h2><div class="cv-row"><div><h3>Postdoctoral Researcher</h3><p>Rice University · Department of Computer Science</p><p class="cv-detail">Working with <a href="https://sites.google.com/view/naihuichia">Prof. Nai-Hui Chia</a></p></div><span class="cv-date">2025–Current</span></div></section>
+    <section id="education"><h2>Education</h2>
+        <div class="cv-row"><div><h3>Ph.D. in Computer Science</h3><p>Portland State University · 2020–2025</p><p>Texas A&amp;M University · 2019–2020 (first year of Ph.D. studies)</p><p class="cv-detail">Advisor at both institutions: <a href="https://fangsong.info/">Prof. Fang Song</a></p></div><span class="cv-date">2019–2025</span></div>
+        <div class="cv-row"><div><h3>M.S. in Computer Science</h3><p>Portland State University</p></div><span class="cv-date">2018–2019</span></div>
+        <div class="cv-row"><div><h3>Post-Baccalaureate in Computer Science</h3><p>Portland State University</p><p class="cv-detail">Transitioned from advertising to computer science.</p></div><span class="cv-date">2017–2018</span></div>
+    </section>
+    <section id="publications"><h2>Publications & Preprints</h2>
+    <ul class="cv-papers">
         <!-- Paper 1 -->
         <li class="leading-relaxed">
             <div class="font-semibold">
@@ -39,6 +20,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
                 <a
                     href="https://arxiv.org/abs/2504.14957"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="text-blue-500 underline"
                 >
                     [arXiv]
@@ -46,6 +28,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
                 <a
                     href="https://www.notion.so/1b1ead8795d0808daacaffbe6da8f80d?pvs=21"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="text-blue-500 underline"
                 >
                     [poster]
@@ -53,7 +36,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
             </div>
 
             <div>
-                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em
+                <em class="cv-author not-italic font-semibold">Chuhan Lu</em
                 >, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao.
             </div>
 
@@ -61,9 +44,10 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
                 <a
                     href="https://asiacrypt.iacr.org/2026/"
                     target="_blank"
-                    class="text-blue-500 underline font-semibold"
+                    rel="noopener noreferrer"
+                    class="cv-venue"
                 >
-                    ASIACRYPT2026
+                    ASIACRYPT 2026
                 </a>
             </div>
         </li>
@@ -74,6 +58,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
                 <a
                     href="https://arxiv.org/abs/2411.03716"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="text-blue-500 underline"
                 >
                     [arXiv]
@@ -82,9 +67,10 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
             <div>
                 Nai-Hui Chia, Kai-Min Chung, Tzu-Hsiang Huang,
-                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em
+                <em class="cv-author not-italic font-semibold">Chuhan Lu</em
                 >, and Jhih-Wei Shih.
             </div>
+            <div class="mt-1"><a class="cv-venue" href="https://itcs-conf.org/" target="_blank" rel="noopener noreferrer">ITCS 2027</a></div>
         </li>
         <!-- Paper 2 -->
         <li class="leading-relaxed">
@@ -93,6 +79,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
                 <a
                     href="https://arxiv.org/abs/2309.08941"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="text-blue-500 underline"
                 >
                     [arXiv]
@@ -100,7 +87,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
             </div>
 
             <div>
-                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em
+                <em class="cv-author not-italic font-semibold">Chuhan Lu</em
                 >, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao.
             </div>
 
@@ -108,17 +95,19 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
                 <a
                     href="https://qip2024.tw/site/page.aspx?pid=901&sid=1522&lang=en"
                     target="_blank"
-                    class="text-blue-500 underline font-semibold"
+                    rel="noopener noreferrer"
+                    class="cv-venue"
                 >
-                    QIP2024
+                    QIP 2024
                 </a>
                 &nbsp;
                 <a
                     href="https://tcc.iacr.org/2024/"
                     target="_blank"
-                    class="text-blue-500 underline font-semibold"
+                    rel="noopener noreferrer"
+                    class="cv-venue"
                 >
-                    TCC2024
+                    TCC 2024
                 </a>
             </div>
         </li>
@@ -130,7 +119,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
             </div>
 
             <div>
-                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em
+                <em class="cv-author not-italic font-semibold">Chuhan Lu</em
                 >, Nikhil Pappu.
             </div>
 
@@ -139,7 +128,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
                     href="https://eprint.iacr.org/2024/1847"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-blue-500 underline font-semibold"
+                    class="cv-venue"
                 >
                     [ePrint]
                 </a>
@@ -147,65 +136,20 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
         </li>
     </ul>
 
-    <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Posters & Projects</div>
-    </div>
 
-    <ul class="list-disc mx-6 mb-10 grid gap-4">
-        <!-- Poster 1 -->
-        <li class="leading-relaxed">
-            <div class="font-semibold">
-                A Quantum Algorithm for the Hidden Subgroup Problem on Z^n
-            </div>
-
-            <div>
-                <em class="text-red-600 not-italic font-semibold">Chuhan Lu</em>
-            </div>
-
-            <div class="mt-1">
-                <a
-                    href="http://aqis-conf.org/2021/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-blue-500 underline font-semibold"
-                >
-                    AQIS2021
-                </a>
-            </div>
-        </li>
-
-        <!-- Project items -->
-        <li class="leading-relaxed font-semibold">
-            A Genetic Algorithm Attack on the SVP Challenge in APL (2019)
-        </li>
-
-        <li class="leading-relaxed font-semibold">
-            Implementation of Quadratic Sieve in APL (2018)
-        </li>
-
-        <li class="leading-relaxed font-semibold">
-            A Study of the Nonabelian Hidden Subgroup Problem (2018)
-        </li>
-    </ul>
-
-    <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Teaching Assistant</div>
-    </div>
-
-    <ul class="list-disc mx-6 mb-10 grid gap-4 leading-relaxed">
-        <li>CS 350 Algorithms and Complexity (Spring 2025)</li>
-        <li>CS 581 Theory of Computation (Fall 2024)</li>
-        <li>CS 251 Discrete Structures II (Spring 2024)</li>
-        <li>CS 491/591 Intro to Computer Security (Fall 2022)</li>
-    </ul>
-
-    <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Awards</div>
-    </div>
-
-    <ul class="list-disc mx-6 mb-10 grid gap-4 leading-relaxed">
-        <li class="font-semibold">
-            Wedge Vision Fellowship, 2020–2021 academic year
-        </li>
-    </ul>
+    </section>
+    <section id="posters"><h2>Posters</h2><h3>A Quantum Algorithm for the Hidden Subgroup Problem on Z<sup>n</sup></h3><p class="cv-detail"><strong class="cv-author">Chuhan Lu</strong></p><a class="cv-venue" href="http://aqis-conf.org/2021/" target="_blank" rel="noopener noreferrer">AQIS 2021</a></section>
+    <section id="teaching"><h2>Teaching Experience</h2><p class="cv-section-note">Teaching Assistant</p>
+        <div class="cv-row"><h3>CS 350 · Algorithms and Complexity</h3><span class="cv-date">Spring 2025</span></div>
+        <div class="cv-row"><h3>CS 581 · Theory of Computation</h3><span class="cv-date">Fall 2024</span></div>
+        <div class="cv-row"><h3>CS 251 · Discrete Structures II</h3><span class="cv-date">Spring 2024</span></div>
+        <div class="cv-row"><h3>CS 491/591 · Intro to Computer Security</h3><span class="cv-date">Fall 2022</span></div>
+    </section>
+    <section id="awards"><h2>Honors & Awards</h2><div class="cv-row"><h3>Wedge Vision Fellowship</h3><span class="cv-date">2020–2021</span></div></section>
+    <section id="projects"><h2>Earlier Projects</h2>
+        <div class="cv-row"><h3>A Genetic Algorithm Attack on the SVP Challenge in APL</h3><span class="cv-date">2019</span></div>
+        <div class="cv-row"><h3>Implementation of Quadratic Sieve in APL</h3><span class="cv-date">2018</span></div>
+        <div class="cv-row"><h3>A Study of the Nonabelian Hidden Subgroup Problem</h3><span class="cv-date">2018</span></div>
+    </section>
+</article>
 </BaseLayout>
